@@ -1,12 +1,12 @@
 # Use Cucumber features in subdirectories
-You can orginaize cucumber features in their own subdirectories. However when you run cucumber, by default it only loads the *.rb files whitin the directory passed as argument.
+You can organise cucumber features in their own subdirectories. However when you run cucumber, by default it only loads the *.rb files whitin the directory passed as argument.
 
 ```bash
 $ cucumber # default directory "features"
 $ cucumber features # so will this
 ```
 
-This shouldn't be a problem if your run the whole testsuite. In that cause cucumber will automatically load all the subdirectories as well.
+This shouldn't be a problem if your run the whole test-suite. In that cause cucumber will automatically load all the subdirectories as well.
 
 But when you run a cucumber feature in a subdirectory it will only look in that subdirectory.
 
